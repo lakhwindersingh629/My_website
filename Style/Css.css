@@ -69,9 +69,9 @@ li{
     outline : none;
 }
 
-#i{
-    margin-left  : 900px;
-    margin-top : -75px;
+#i{position : absolute;
+    margin-left  : 800px;
+    margin-top : 40px;
     color : rgb(3, 3, 182);
     font-size: 20;
     background-color: white;
@@ -80,20 +80,16 @@ li{
 }
 
 #j{
-    
-    margin-left  : 1150px;
-    margin-top : -78px;
+    position : absolute;
+    margin-left  : 1020px;
+    margin-top : 40px;
     color : rgb(197, 9, 9);
     font-size: 20;
     outline : none;
     background-color: white;
 
 }
-#j1{
-    color : rgb(197, 9, 9);
-    margin-left  : 1180px;
-    margin-top : -58px;
-}
+
 
 #container2{
     border : 1px solid blue;
