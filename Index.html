@@ -43,46 +43,24 @@
         </ul>
      </div>
      </div>
-     <div id="dropdown">
-      <button id='n1' class="btn btn-secondary dropdown-toggle" >SUBJECT AREAS</button>
-      <div id="p">
-        <ul>
-          <li><a href="">ONLINE TUTORING</li></a>
-          <li><a href="">HOMEWORK HELP</li></a>
-          <li><a href="">MATH TUTORING</li></a>
-        </ul>
-     </div>
-     </div> 
+     
     <div id="dropdown">
       <button id='n2' class="btn btn-secondary dropdown-toggle" >WHY US</button>
       <div id="q">
         <ul>
-          <li><a href="">THE LEARNING DIFFERENCE</li></a>
-          <li><a href="">HOW WE HELP</li></a>
-          <li><a href="">DYNAMIC ASSESSMENT</li></a>
-          <li><a href="">TUTORING FAQ's</li></a>
-          <li><a href="">TUITION PRICING</li></a>
-          <li><a href="">HOW TO ENROL</li></a>
+          <li><a href="">The Learning Difference</li></a>
+          <li><a href="">How we help</li></a>
+          <li><a href="">Dynamic Assessment</li></a>
         </ul>
      </div>
     </div>
     <div id="dropdown">
-      <button id='n3' class="btn btn-secondary dropdown-toggle">PROGRAMS</button>
+      <button id='n3' class="btn btn-secondary dropdown-toggle">TUTORING FAQ's</button>
       <div id="q1">
         <ul>
-          <li><a href="">VIRTUAL TABLE</li></a>
-          <li><a href="">BEYOND TUTORING</li></a>
-          <li><a href="">STUDY SKILLS PROGRAM</li></a>
-        </ul>
-     </div>
-     </div>
-     <div id="dropdown">
-      <button id='n4' class="btn btn-secondary dropdown-toggle" >RESOURCES</button>
-      <div id="r">
-        <ul>
-          <li><a href="">BLOG & RESOURCES</li></a>
-          <li><a href="">HOW TUTORING HELPS</li></a>
-        </ul>
+          <li><a href="">Tuition Pricing</li></a>
+          <li><a href="">How to enrol</li></a>
+</ul>
      </div>
      </div>
      <div id="dropdown">
@@ -95,7 +73,7 @@
      </div>
      </div>
      <button id='r2' onclick="Toggle_Form()"><i class="fas fa-edit"></i>NEW REGISTRATION </button>
-     <button id='r3'>EXISTING STUDENT <i class="fas fa-arrow-right"></i>  </button>
+     <button id='r3' onclick="Toggle_LoginForm()">EXISTING STUDENT <i class="fas fa-arrow-right"></i>  </button>
 </section>
 <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container1">
@@ -117,7 +95,7 @@
   <!-- End WOWSlider.com BODY section -->
   <div id='container3'>
   <h1 id='r4'>START ONLINE CLASSES NOW</h1>
-  <button id='r5'>ENROL <i class="fas fa-arrow-right"></i>  </button>
+  <button id='r5' onclick="Toggle_Form()">ENROL <i class="fas fa-arrow-right"></i>  </button>
   </div>
   <div id='container4'>
     <b id='k'>Enter your full Name : </b>
@@ -139,10 +117,10 @@
   <b id='k'>Enter your Mobile Number :</b>
   <input type='text' id='e1' size="10" required>
   <br><br>
-  <b id='k'>Enter your City :</b>
+  <b id='k'>Enter your Password :</b>
   <input type='text' id='e1' size="60" required>
   <br><br>
-  <b id='k'>Any other query :</b>
+  <b id='k'>Re-enter Password :</b>
   <input type='text' size="60" id='e1' size="60" required>
   <br><br>
   <b id='k'>Enter the Captcha :</b>
@@ -152,11 +130,20 @@
   <button id='e2'>Register Now!</button>
   <button id='e3' onclick="Toggle_Form()">Cancel</button>
 </div>
+<div id='container7'>
+<b id='k1'>Enter your Email :</b>
+<input type='text' id='e1' size="60" required>
+<br><br>
+<b id='k1'>Enter your Password:</b>
+<input type='text' id='e1' size="10" required>
+<br><br>
+<button id='e4'> Login</button>
+<button id='e5' onclick="Toggle_LoginForm()">Cancel</button>
+
+</div>
 <div id='container6'>
 <h1 id='r15'> Videos</h1>
-<iframe id='r16'>width="420" height="315"
-src="https://www.youtube.com/embed?v=GqdJFFvsZeE">
-</iframe>
+
 </div>
 
 
