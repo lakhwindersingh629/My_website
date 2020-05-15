@@ -13,7 +13,8 @@ function Toggle_Form()
   Toggle_Backdrop();
 };
 
-
+// Hey ton add comment other wise it gonna be hard to under stand the code:
+//it is good practise 
 function GenCaptcha(){
     let val = Math.floor(1000 + Math.random() * 9000);
     document.getElementById("Captcha").innerHTML = val;
